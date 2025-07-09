@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Heading } from "@/components/Heading/Heading";
+import { Text } from "@/components/Text/Text";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       </Head>
 
       <div>
-        <Heading>Projeto experimental para aplicar na prática conceitos de DevOps, incluindo pipelines com GitHub Actions, conteinerização com Docker, orquestração com Kubernetes e monitoramento. </Heading>
+        <Heading>OpsPlayground</Heading>
+        <Text>Projeto experimental para aplicar na prática conceitos de DevOps, incluindo pipelines com GitHub Actions, conteinerização com Docker, orquestração com Kubernetes e monitoramento.</Text>
       </div>
     </>
   );
